@@ -57,45 +57,6 @@ The project addresses the problem of **faster resolution of commercial disputes*
 - **Advanced Customization**: Allowing users to specify the nature of the case (e.g., contract law, intellectual property) for more relevant results.
 - **Ethical Transparency**: Ensuring explainability and bias mitigation in AI-based decision-making.
 
-## Setup and Installation
-
-### Prerequisites
-
-- Python 3.8+
-- **Cohere API Key**: Get your API key from [Cohere](https://docs.cohere.ai/docs/quickstart).
-- **spaCy Model**: Download the spaCy English model (`en_core_web_sm`).
-  
-    ```bash
-    python -m spacy download en_core_web_sm
-    ```
-
-### Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/repo-name.git
-    cd repo-name
-    ```
-
-2. Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Set up your **Cohere API Key** in your environment variables:
-    ```bash
-    export CO_API_KEY=your-cohere-api-key
-    ```
-
-4. Run the application:
-    ```bash
-    python app.py
-    ```
-
-5. The Gradio interface will launch. You can now upload PDF documents and input queries to interact with the research engine.
-
-
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
