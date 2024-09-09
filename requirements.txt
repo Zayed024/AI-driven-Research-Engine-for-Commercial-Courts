@@ -1,0 +1,8 @@
+torch
+gradio
+cohere
+spacy
+nltk
+pdfminer.six
+transformers
+numpy
